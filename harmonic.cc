@@ -8,8 +8,6 @@
 
 #include <iostream>
 
-using namespace std;
-
 /**
  * Returns the harmonic mean of two given numbers.
  * @param x the first number
@@ -25,14 +23,14 @@ int main() {
     double value1 = 0.0;
     double value2 = 0.0;
 
-    cout << "Please enter a number: ";
-    cin >> value1;
-    cout << "Please enter another number: ";
-    cin >> value2;
+    std::cout << "Please enter a number: ";
+    std::cin >> value1;
+    std::cout << "Please enter another number: ";
+    std::cin >> value2;
 
     const double result = harmonic_mean(value1, value2);
 
-    cout << "The harmonic mean is: " << result << endl;
+    std::cout << "The harmonic mean is: " << result << std::endl;
 
     return 0;
 }
