@@ -13,16 +13,16 @@
  * @return
  */
 int get_inches(int feet) {
-   return 0; // replace this line
+    return 0; // replace this line
 }
 
 // Controls operation of the program.
 int main() {
-   std::cout << "Feet: ";
-   int feet = 0;
-   std::cin >> feet;
+    std::cout << "Feet: ";
+    int feet = 0;
+    std::cin >> feet;
 
-   // add code here
+    // add code here
 
-   return 0;
+    return 0;
 }

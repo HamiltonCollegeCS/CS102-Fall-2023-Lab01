@@ -9,5 +9,5 @@
 
 // Controls operation of the program.
 int main() {
-   // it's all up to you now :)
+	// it's all up to you now :)
 }
